@@ -5,9 +5,10 @@ name: Go
 
 on:
   push:
+    tags:        
+        - '**'
     branches: [ "*" ]
-    tags: [ "*" ]
-    
+
   pull_request:
     branches: [ "*" ]
 
