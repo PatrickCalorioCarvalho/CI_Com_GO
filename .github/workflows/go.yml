@@ -56,6 +56,7 @@ jobs:
         name: binarios
         path: main
           
+          
   docker:
     needs: build
     uses: ./.github/workflows/docker.yml
